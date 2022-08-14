@@ -2,15 +2,24 @@
 //  ContentView.swift
 //  MiniApp82-SwiftUI-Binding&State
 //
-//  Created by 前田航汰 on 2022/08/14.
-//
 
 import SwiftUI
 
 struct ContentView: View {
+    @State var str = "Hello, world!"
+    @State var isShowNextView = false
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text(str)
+                .padding()
+            Button("ボタン"){
+                isShowNextView = true
+            }
+            .sheet(isPresented: $isShowNextView) {
+                SecondView(isShowNextView: $isShowNextView)
+            }
+        }
     }
 }
 

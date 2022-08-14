@@ -11,6 +11,7 @@
 		877884BB28A8939B00FACE0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877884BA28A8939B00FACE0C /* ContentView.swift */; };
 		877884BD28A8939C00FACE0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877884BC28A8939C00FACE0C /* Assets.xcassets */; };
 		877884C028A8939C00FACE0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877884BF28A8939C00FACE0C /* Preview Assets.xcassets */; };
+		877884C728A8941900FACE0C /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877884C628A8941900FACE0C /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		877884BA28A8939B00FACE0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		877884BC28A8939C00FACE0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		877884BF28A8939C00FACE0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		877884C628A8941900FACE0C /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				877884B828A8939B00FACE0C /* MiniApp82_SwiftUI_Binding_StateApp.swift */,
 				877884BA28A8939B00FACE0C /* ContentView.swift */,
+				877884C628A8941900FACE0C /* SecondView.swift */,
 				877884BC28A8939C00FACE0C /* Assets.xcassets */,
 				877884BE28A8939C00FACE0C /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				877884C728A8941900FACE0C /* SecondView.swift in Sources */,
 				877884BB28A8939B00FACE0C /* ContentView.swift in Sources */,
 				877884B928A8939B00FACE0C /* MiniApp82_SwiftUI_Binding_StateApp.swift in Sources */,
 			);
